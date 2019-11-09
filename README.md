@@ -5,7 +5,7 @@
 Udacity Github Project - Bikeshare Python Project
 
 ### Description
-This Udacity project aims to test the knowledge of Git and Github using data from previous Python project.
+This Udacity project aims to test the knowledge of Git and Github using data from previous Python project and a source Github repository.
 
 ### Files used
 bikeshare.py
