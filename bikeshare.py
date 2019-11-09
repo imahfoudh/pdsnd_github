@@ -47,7 +47,7 @@ def get_filters():
         if(day in days):
             break
         else:
-            day=input("Please give a valid day of the week entry").lower()
+            day=input("Please give a valid day of the week entry: ").lower()
 
 
 
