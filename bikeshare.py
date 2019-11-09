@@ -71,7 +71,7 @@ def load_data(city, month, day):
     df['Start Time'] = pd.to_datetime(df['Start Time'])
     df['month_name'] = df['Start Time'].dt.month
     df['day_name'] = df['Start Time'].dt.weekday_name
-    df['s_hour'] = df['Start Time'].dt.hour
+    df['starting_hour'] = df['Start Time'].dt.hour
 
     if month != 'all':
         months=["january", "february","march","april","may","june","all"]
@@ -106,7 +106,7 @@ def time_stats(df,month,day):
 
 
     # display the most common start hour
-    common_hour=df['s_hour'].value_counts().idxmax()
+    common_hour=df['starting_hour'].value_counts().idxmax()
     print("\nThe most common hour is: ", common_hour)
 
 
