@@ -9,6 +9,7 @@ This Udacity project aims to test the knowledge of Git and Github using data fro
 
 ### Files used
 bikeshare.py
+Not included in repository:
 chicago.csv
 new_york_city.csv
 washington.csv
